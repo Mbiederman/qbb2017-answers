@@ -1,6 +1,8 @@
-1. 538344 BDGP6.Ensembl.81.gtf
+1. 538344 BDGP6.Ensembl.81.gtf 
+wc -l BDGP6.Ensembl.81.gtf 
 
 2. 514
+grep -c "Sxl" BDGP6.Ensembl.81.gtf
 
 3. 
 #!genebuild-last-updated 2014-09
@@ -16,13 +18,9 @@ gene
 start_codon
 stop_codon
 transcript
+cut -f 3 BDGP6.Ensembl.81.gtf | sort | uniq 
 
 4.  
-   1 #!genebuild-last-updated 2014-09
-   1 #!genome-build BDGP6
-   1 #!genome-build-accession NCBI:GCA_000001215.4
-   1 #!genome-date 2014-07
-   1 #!genome-version BDGP6
 160095 CDS
    4 Selenocysteine
 79026 UTR
@@ -31,6 +29,7 @@ transcript
 30367 start_codon
 30274 stop_codon
 34718 transcript
+cut -s -f 3 BDGP6.Ensembl.81.gtf | sort | uniq -c
 
 5.
 3R 722370 722621 251 -
@@ -133,3 +132,4 @@ transcript
 3R 2744758 2744800 42 -
 3R 2744304 2744698 394 -
 3R 2744305 2744800 495 -
+cut -f 1,4,5,7 -s BDGP6.Ensembl.81.gtf | head -100 | awk '{print $1 "\t"$2 "\t" $3 "\t" $3-$2+1 "\t" $4}' 
