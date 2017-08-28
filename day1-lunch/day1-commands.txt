@@ -1,0 +1,5 @@
+cd /Users/cmdb/data/genome/
+wc -l BDGP6.Ensemble.81.gtf
+grep -c "Sxl" BDGP6.Ensemble.81.gtf
+cut - f 3 BDGP6.Ensemble.81.gtf | sort | uniq
+cut - f 3 BDGP6.Ensemble.81.gtf | sort | uniq -c >> ~/qbb2017-answers/day1-lunch/day1-answers.txt
