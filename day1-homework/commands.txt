@@ -3,6 +3,10 @@
 3. samtools view BDGP6.sam -b -o BDGP6.bam -@ 4
    samtools sort BDGP6.bam -o BDGP6.sorted.bam
    (or samtools sort -O BDGP6.sorted.bam BDGP6.bam)
-   samtools index -b BDGP6.sorted.bam BDGP6.index
+   samtools index -b BDGP6.sorted.bam BDGP6.bai
 4. stringtie BDGP6.sorted.bam -G ~/data/genomes/BDGP6.Ensembl.81.gtf -e -B -o BDGP6.ctab -p 4
 5. skimmed
+
+Advanced
+1. cut -f 2 t_data.ctab | sort | uniq -c
+2. cut -f 4,2 t_data.ctab | sort | uniq -c | sort -r | head
