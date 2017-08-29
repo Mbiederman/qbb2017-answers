@@ -12,6 +12,7 @@
 
 import sys
 
+
 # Input mapping file day2-homework-1.out
 input1_dict = {}    
 with open(sys.argv[1]) as input1:
@@ -27,6 +28,8 @@ for line in input2:
     if fields[8] in input1_dict:
         fields[8] = input1_dict[fields[8]]
         print "\t".join(fields)
+           
+        
        # if input1(key) in
             
         
