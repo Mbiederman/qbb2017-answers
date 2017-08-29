@@ -15,7 +15,7 @@ for line in sam:
     if line.startswith("@"):
         n = 0
     else:
-        if "NM:i:0" in line:
+        if "NH:i:1" in line:
             n=1
         else:
             n=0
