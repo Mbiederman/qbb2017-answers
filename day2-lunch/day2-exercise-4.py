@@ -6,7 +6,7 @@
 import sys
 
 
-count = 0
+
 
 if len( sys.argv ) > 1:
     sam = open( sys.argv[1] )   
@@ -18,13 +18,12 @@ for line in sam:
     if line.startswith("@"):
         n = 0
     else:
-        if "NH:i:1" in line:
-            n=1
-        else:
-            n=0
-    count = count + n              
+        fields = line.split('\t')
+        if fields[2] != "*":
+            
+                 
 
-print count
+print id[:10]
 
 #for line in sam:
     # start and end are in columns 3 and 4
