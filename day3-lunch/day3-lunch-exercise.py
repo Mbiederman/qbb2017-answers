@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+#binary search
+
 import random
 
 key = 4
