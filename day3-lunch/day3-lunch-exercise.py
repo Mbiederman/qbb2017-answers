@@ -18,7 +18,7 @@ while lo < hi:
         print "found %d, at position %d, who's value is %d!" % (key, midix, mid)
         break
     elif key > mid:
-        lo = midix +1
+        lo = midix + 1
     else:
         hi = midix
     
