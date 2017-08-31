@@ -33,12 +33,12 @@ for ident, sequence in fasta.FASTAReader(target):
 
 ident, sequence_q = fasta.FASTAReader(query).next()
 sequence_q = sequence_q.upper()
-for i in range(0, len(sequence_q) - k):
-    qkmer = sequence_q[i:i+k]
+for x in range(0, len(sequence_q) - k):
+    qkmer = sequence_q[x:x+k]
     if qkmer in kmer_index:
         result = kmer_index[qkmer] 
         for q in result:
-            print q[0], "\t", q[1], "\t", i, "\t", qkmer
+            print str(q[0]) + "\t" + str(q[1]) + "\t" + str(x) + "\t" + str(qkmer)
             
         
               
