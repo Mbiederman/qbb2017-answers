@@ -42,20 +42,18 @@ import matplotlib.pyplot as plt
 
 df_H3K4me3 = pd.read_csv( sys.argv[1], sep="\t", header=None )
 df_H3K4me3 = df_H3K4me3.sort_values(0, ascending=False)
-print df_H3K4me3
 
 df_H3K9me3 = pd.read_csv( sys.argv[2], sep="\t", header=None )
-#df_H3K9me3 = df_H3K9me3.sort_values(0, ascending=False
-print df_H3K9me3
+df_H3K9me3 = df_H3K9me3.sort_values(0, ascending=False
 
-df_H3K27me3 = pd.read_csv( sys.argv[3], sep="\t", header=None )
-#df_H3K27me3 = df_H3K27me3.sort_values(0, ascending=False)
+df_H3K27me = pd.read_csv( sys.argv[3], sep="\t", header=None )
+df_H3K27me3 = df_H3K27me3.sort_values(0, ascending=False)
 
 df_H3K36me3 = pd.read_csv( sys.argv[4], sep="\t", header=None )
-#df_H3K36me3 = df_H3K36me3.sort_values(0, ascending=False)
+df_H3K36me3 = df_H3K36me3.sort_values(0, ascending=False)
 
 df_fpkms = pd.read_csv( sys.argv[5], sep="\t" )
-#df_fpkms = df_t.sort_values("t_name", ascending=False)
+df_fpkms = df_t.sort_values("t_name", ascending=False)
 
 
 
@@ -66,22 +64,22 @@ x4 = df_H3K36me3[5]
 y = df_fpkms["FPKM"]
 
 
-model1 = sm.OLS(y, x1).fit()
+model1 = sm.OLS(y.values, x1.values).fit()
 predictions = model1.predict(x1)
 print model1.summary()
 
-model2 = sm.OLS(y, x2).fit()
+model2 = sm.OLS(y.values, x2.values).fit()
 predictions = model2.predict(x1)
 print model2.summary()
 
-model3 = sm.OLS(y, x3).fit()
+model3 = sm.OLS(y.values, x3.values).fit()
 predictions = model3.predict(x1)
 print model1.summary()
 
-model4 = sm.OLS(y, x4).fit()
+model4 = sm.OLS(y.values, x4.values).fit()
 predictions = model4.predict(x4)
 print model1.summary()
 
-model5 = sm.OLS(y, x1, x2, x3, x4).fit()
-predictions = model1.predict(x1, x2, x3, x4)
-print model5.summary()
+# model5 = sm.OLS(y, x1, x2, x3, x4).fit()
+# predictions = model1.predict(x1, x2, x3, x4)
+# print model5.summary()

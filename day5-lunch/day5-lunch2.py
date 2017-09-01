@@ -7,32 +7,28 @@ Determine an approximation of the promoter region for each of the transcripts pr
 Hint: Look at strand information
 
 """
-for line in open(sys.arv[1]):
-    fields = line.strip().split("\t")
-    if fields[3] == '+':
-        print 
 
-# import sys
-# import pandas as pd
-#
-# df = pd.read_csv( sys.argv[1], sep="\t" )
-#
-# #specify desired column order
-# coi = [ "t_name", "chr", "start", "end", "strand" ]
-#
-# for index, row in sample_df.iterrows():
-#     if row["strand"] == "+":
-#         pos_st = row["start"]-500
-#         pos_fin = row["start"]+500
-#         if pos_st < 1:
-#             pos_st = 1
-#         print "\t".join([row["chr"], str(pos_st), str(pos_fin), row["t_name"]])
-#     elif row["strand"] == "-":
-#         neg_st = row["end"]-500
-#         neg_fin = row["end"]+500
-#         if neg_st < 1:
-#             neg_st = 1
-#         print "\t".join([row["chr"], str(neg_st), str(neg_fin), row["t_name"]])
+import sys
+import pandas as pd
+
+df = pd.read_csv( sys.argv[1], sep="\t" )
+
+#specify desired column order
+coi = [ "t_name", "chr", "start", "end", "strand" ]
+
+for index, row in sample_df.iterrows():
+    if row["strand"] == "+":
+        pos_st = row["start"]-500
+        pos_fin = row["start"]+500
+        if pos_st < 1:
+            pos_st = 1
+        print "\t".join([row["chr"], str(pos_st), str(pos_fin), row["t_name"]])
+    elif row["strand"] == "-":
+        neg_st = row["end"]-500
+        neg_fin = row["end"]+500
+        if neg_st < 1:
+            neg_st = 1
+        print "\t".join([row["chr"], str(neg_st), str(neg_fin), row["t_name"]])
 
 # for index, row in df.iterrows():
 #     if row["strand"] == "+":
