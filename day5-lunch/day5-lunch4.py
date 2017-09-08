@@ -44,16 +44,16 @@ df_H3K4me3 = pd.read_csv( sys.argv[1], sep="\t", header=None )
 df_H3K4me3 = df_H3K4me3.sort_values(0, ascending=False)
 
 df_H3K9me3 = pd.read_csv( sys.argv[2], sep="\t", header=None )
-df_H3K9me3 = df_H3K9me3.sort_values(0, ascending=False
+df_H3K9me3 = df_H3K9me3.sort_values(0, ascending=False)
 
-df_H3K27me = pd.read_csv( sys.argv[3], sep="\t", header=None )
+df_H3K27me3 = pd.read_csv( sys.argv[3], sep="\t", header=None )
 df_H3K27me3 = df_H3K27me3.sort_values(0, ascending=False)
 
 df_H3K36me3 = pd.read_csv( sys.argv[4], sep="\t", header=None )
 df_H3K36me3 = df_H3K36me3.sort_values(0, ascending=False)
 
 df_fpkms = pd.read_csv( sys.argv[5], sep="\t" )
-df_fpkms = df_t.sort_values("t_name", ascending=False)
+df_fpkms = df_fpkms.sort_values("t_name", ascending=False)
 
 
 
