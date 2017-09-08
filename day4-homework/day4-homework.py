@@ -93,6 +93,7 @@ plt.margins(0.1,0)
 plt.subplots_adjust(bottom=0.15)
 plt.legend(["Female", "Male", "Female Replicates", "Male Replicates"], loc="center right", bbox_to_anchor=(1.5,0.5), frameon=False, numpoints=1)
 plt.xticks(range(8), ["10", "11", "12", "13", "14A", "14B", "14C", "14D"], rotation=90)
+XAxis.set_ticks_position
 plt.savefig("day4-homework.png", additional_artists=art, bbox_inches="tight")
 plt.close()
 
