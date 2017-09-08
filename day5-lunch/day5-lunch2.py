@@ -6,6 +6,8 @@ Usage: ./02-scree.py <SRR072893/t_data.ctab> <output.bed>
 Determine an approximation of the promoter region for each of the transcripts present in your SRR072893/t_data.ctab file. Do so by finding the region +/- 500bp from the transcription start site of each transcript. Save as a tab separated file with the extension .bed and columns chromosome, start, end, t_name.
 Hint: Look at strand information
 
+don't save giant files to git
+
 """
 
 import sys
