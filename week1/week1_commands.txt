@@ -5,3 +5,4 @@ tsv -> fasta: $ awk '{gsub ("-","")} {print ">"$1"\n"$2}' 1000_homologues.tsv > 
 transeq: $ transeq 1000_homologues.fa 1000_h_prot.fa
 
 mafft: $ mafft 1000_h_prot.fa >alignment_prot.fa
+
