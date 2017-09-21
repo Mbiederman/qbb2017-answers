@@ -1,0 +1,5 @@
+time velveth velveth_assembly 31 -shortPaired -fastq -separate reads_low_1.fastq reads_low_2.fastq
+
+time velvetg velveth_assembly 
+
+time spades.py -1 reads_low_1.fastq -2 reads_low_2.fastq -t 4 -o spades_out
