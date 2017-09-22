@@ -1,0 +1,6 @@
+total length = 100309
+contig count = 16
+N50 midpoint = 50154
+average contig = 6269.000000, min contig = 61.000000, max contig = 33235.000000
+N50 crossed midpoint = 53146
+The N50 contig length is 19911

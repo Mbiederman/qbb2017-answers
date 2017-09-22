@@ -3,3 +3,21 @@ time velveth velveth_assembly 31 -shortPaired -fastq -separate reads_low_1.fastq
 time velvetg velveth_assembly 
 
 time spades.py -1 reads_low_1.fastq -2 reads_low_2.fastq -t 4 -o spades_out
+
+lastz reference.fasta velveth_assembly/contigs.fa ‑‑chain ‑‑format=general > velveth_mapped.tsv
+
+lastz reference.fasta spades_out/contigs.fasta ‑‑chain ‑‑format=general > spades_mapped.tsv
+
+time spades.py -1 reads_low_1.fastq -2 reads_low_2.fastq --nanopore MAP006.subset.fa -t 4 -o spades_out
+
+lastz reference.fasta spades_improved_out/contigs.fasta ‑‑chain ‑‑format=general > spades_improved_mapped.tsv
+
+time velveth velveth_cov_assembly 31 -shortPaired -fastq -separate reads_1.fastq reads_2.fastq
+
+time velvetg velveth_cov_assembly
+
+time spades.py -1 reads_1.fastq -2 reads_2.fastq -t 4 -o spades_cov_out
+
+lastz reference.fasta velveth_cov_assembly/contigs.fa ‑‑chain ‑‑format=general > velveth_cov_mapped.tsv
+
+lastz reference.fasta spades_cov_out/contigs.fasta ‑‑chain ‑‑format=general > spades_cov_mapped.tsv
