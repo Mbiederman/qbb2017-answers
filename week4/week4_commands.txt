@@ -1,0 +1,14 @@
+gunzip BYxRM_segs_saccer3.bam.simplified.vcf.xz 
+
+brew install plink2
+
+plink2 --pca 2 tabs header -vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr --min 
+
+vcftools --vcf BYxRM_segs_saccer3.bam.simplified.vcf --out af --get-INFO AF
+
+./afplot.py af.INFO week4_af.plot
+
+I manually added "FID_IID" as my first column in my BYxRM_PhenoData.txt file.
+Then I adapted this command from Danny and Matthew:
+
+awk '{gsub ("_","\t")}{print}' BYxRM_PhenoData.txt > pheno.txt
