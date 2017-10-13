@@ -2,7 +2,7 @@ gunzip BYxRM_segs_saccer3.bam.simplified.vcf.xz
 
 brew install plink2
 
-plink2 --pca 2 tabs header -vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr --min 
+plink2 --pca 2 tabs header -vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr --mind 
 
 vcftools --vcf BYxRM_segs_saccer3.bam.simplified.vcf --out af --get-INFO AF
 
@@ -12,3 +12,8 @@ I manually added "FID_IID" as my first column in my BYxRM_PhenoData.txt file.
 Then I adapted this command from Danny and Matthew:
 
 awk '{gsub ("_","\t")}{print}' BYxRM_PhenoData.txt > pheno.txt
+
+plink2 --vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr --allow-no-sex --pheno pheno.txt --pca 2 tabs header --linear --mind
+
+plink2 --vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr --allow-no-sex --pheno pheno.txt --pca 2 tabs --linear --mind --all-pheno
+
