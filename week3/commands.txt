@@ -53,3 +53,7 @@ freebayes -f sacCer3.fa A01_09_sorted.bam A01_11_sorted.bam A01_23_sorted.bam A0
 vcffilter -f "QUAL > 20" unfiltered.vcf > filtered.vcf
 
 vcftools --vcf filtered.vcf --out af --get-INFO AF
+
+snpEff eff R64-1-1.86 filtered.vcf > filtered.eff.vcf
+
+sort -nk6 -r filtered_trimmed.eff.vcf | head -5 > filtered_trimmed.eff.txt
