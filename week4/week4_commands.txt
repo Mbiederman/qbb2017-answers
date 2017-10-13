@@ -15,5 +15,8 @@ awk '{gsub ("_","\t")}{print}' BYxRM_PhenoData.txt > pheno.txt
 
 plink2 --vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr --allow-no-sex --pheno pheno.txt --pca 2 tabs header --linear --mind
 
+./manhattan.py plink.assoc.linear manhattan_test
+
 plink2 --vcf BYxRM_segs_saccer3.bam.simplified.vcf --allow-extra-chr --allow-no-sex --pheno pheno.txt --pca 2 tabs --linear --mind --all-pheno
 
+./manhattan.sh 
