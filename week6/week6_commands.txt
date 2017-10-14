@@ -1,0 +1,86 @@
+gunzip g1e.tar.xz
+
+tar -xzf g1e.tar.xz
+
+bowtie2-build -f chr19.fa chr19_ref_index
+
+bowtie2 -x chr19_ref_index -U CTCF_ER4.fastq -S CTCF_ER4.sam
+bowtie2 -x chr19_ref_index -U CTCF_G1E.fastq -S CTCF_G1E.sam
+bowtie2 -x chr19_ref_index -U input_ER4.fastq -S input_ER4.sam
+bowtie2 -x chr19_ref_index -U input_G1E.fastq -S input_G1E.sam
+
+macs2 callpeak -t CTCF_ER4.sam -f SAM -n CTCF_ER4 
+macs2 callpeak -t CTCF_ER4.sam -c input_ER4.sam -f SAM -n CTCF_ER4_control
+macs2 callpeak -t CTCF_G1E.sam -f SAM -n CTCF_G1E 
+macs2 callpeak -t CTCF_G1E.sam -c input_G1E.sam -f SAM -n CTCF_G1E_control
+
+bedtools intersect -a CTCF_ER4_summits.bed -b CTCF_G1E_summits.bed -v > ER4_G1E_intersect.bed
+bedtools intersect -a CTCF_G1E_summits.bed -b CTCF_ER4_summits.bed -v > G1E_ER4_intersect.bed
+bedtools intersect -a CTCF_ER4_control_summits.bed -b CTCF_G1E_control_summits.bed -v > ER4_G1E_controls_intersect.bed
+bedtools intersect -a CTCF_G1E_control_summits.bed -b CTCF_ER4_control_summits.bed -v > G1E_ER4_controls_intersect.bed
+
+sort -nk5 -r ER4_G1E_intersect.bed | head -100 > ER4_G1E_diff.bed
+sort -nk5 -r G1E_ER4_intersect.bed | head -100 > G1E_ER4_diff.bed
+sort -nk5 -r ER4_G1E_controls_intersect.bed | head -100 > ER4_G1E_controls_diff.bed
+sort -nk5 -r G1E_ER4_controls_intersect.bed | head -100 > G1E_ER4_controls_diff.bed
+
+tar -xzf meme_4.12.0.tar
+
+tar -xzf motif_databases.12.15.tar
+
+brew install cpanminus; cpanm install XML::Simple
+
+cd meme_4.12.0/
+./configure --prefix=$HOME/meme --with-url="http://meme-suite.org" 
+
+Run the following commands to compile, test and install meme:
+        make
+        make test
+        make install
+
+make
+
+make test
+
+perl -MCPAN -e 'install XML::Simple'
+
+cd scripts 
+
+perl dependencies.pl
+
+HTML::Template missing.
+HTML::TreeBuilder missing.
+JSON missing.
+XML::Compile::SOAP11 missing. Used for downloading sequence databases from RSAT
+XML::Compile::WSDL11 missing. Used for downloading sequence databases from RSAT
+XML::Compile::Transport::SOAPHTTP missing. Used for downloading sequence databases from RSAT
+
+Checking Optional Modules:
+Log::Log4perl missing. Used for logging and debugging by developers.
+Math::CDF missing. Only required for fasta-enriched-center script (which is not called by the web scripts).
+
+sudo cpan HTML::Template
+sudo cpan HTML::TreeBuilder
+sudo cpan JSON
+sudo cpan XML::Compile::SOAP11
+sudo cpan XML::Compile::WSDL11
+sudo cpan XML::Compile::Transport::SOAPHTTP
+sudo cpan Math::CDF
+sudo cpan Log::Log4perl
+sudo cpan File::Which
+
+unset PYTHONPATH
+
+make install 
+
+./configure --prefix=$HOME/meme --with-url="http://meme-suite.org" --with-db=/Users/cmdb/data/week6_data/meme_4.12.0/db/
+make test
+make install
+
+bedtools getfasta -name -fi chr19.fa -bed CTCF_G1E_peaks.narrowPeak -fo CTCF_G1E_peaks.fa
+
+meme-chip -o G1E -db meme_4.12.0/db/motif_databases/MOUSE/HOCOMOCOv10_MOUSE_mono_meme_format.meme CTCF_G1E_peaks.fa
+
+bedtools getfasta -name -fi chr19.fa -bed CTCF_ER4_peaks.narrowPeak -fo CTCF_ER4_peaks.fa
+
+meme-chip -o ER4 -db meme_4.12.0/db/motif_databases/MOUSE/HOCOMOCOv10_MOUSE_mono_meme_format.meme CTCF_ER4_peaks.fa
