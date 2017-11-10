@@ -1,0 +1,24 @@
+sudo pip install hifive
+
+brew switch libjpeg 8d
+
+rm -r /usr/local/lib/python2.7/site-packages/PIL
+
+Sudo pip install pillow
+
+hifive 5c-complete express -C Nora_ESC_male_E14.counts -P 5C-norm Nora_Primers.bed
+
+usage: hifive 5c-heatmap [-h] [-b BINSIZE] [-t] [-r REGIONS]
+                         [-d {raw,fragment,distance,enrichment,expected}]
+                         [-a {compact,full}] [-F {hdf5,txt,npz}] [-y]
+                         [-x EXPBINSIZE] [-f MINOBS] [-g SEARCH] [-v]
+                         [-i IMAGE] [-p] [-l] [-n] [-k KEYWORDS] [-q]
+                         project output
+
+hifive 5c-heatmap -b 0 5C-norm.fcp frag_out.heat -i frag_out.png -d fragment -a compact -F npz
+
+hifive 5c-heatmap -b 0 5C-norm.fcp enr_out.heat -i enr_out.png -d enrichment -a compact -F npz
+
+You can access the data in python with the command data=numpy.load(‘Out.heat’). Then, just like any other dictionary, you can see what keys are present with the .keys() operator and access the data using data[key]
+
+We want to look at fragment-level data (no binning) so use a binsize of 0. This should create an output npz file with 6 keyed arrays, ‘0.counts’, ‘0.expected’, ‘0.enrichment’, ‘0.forward’, ‘0.reverse’, and ‘regions’. The forward and reverse arrays are the coordinates of the corresponding fragments. The enrichment array is simply the counts array divided by the expected array.
