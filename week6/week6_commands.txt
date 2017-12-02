@@ -27,53 +27,23 @@ sort -nk5 -r G1E_ER4_controls_intersect.bed | head -100 > G1E_ER4_controls_diff.
 tar -xzf meme_4.12.0.tar
 
 tar -xzf motif_databases.12.15.tar
+(I made a folder named “db” inside my meme_4.12.0 folder and put the motif_databases folder inside it)
 
 brew install cpanminus; cpanm install XML::Simple
 
 cd meme_4.12.0/
 ./configure --prefix=$HOME/meme --with-url="http://meme-suite.org" 
 
-Run the following commands to compile, test and install meme:
-        make
-        make test
-        make install
-
-make
-
-make test
-
 perl -MCPAN -e 'install XML::Simple'
 
 cd scripts 
 
-perl dependencies.pl
 
-HTML::Template missing.
-HTML::TreeBuilder missing.
-JSON missing.
-XML::Compile::SOAP11 missing. Used for downloading sequence databases from RSAT
-XML::Compile::WSDL11 missing. Used for downloading sequence databases from RSAT
-XML::Compile::Transport::SOAPHTTP missing. Used for downloading sequence databases from RSAT
+/Users/cmdb/data/week6_data/meme_4.12.0 $ dreme-py3 -oc results/dreme3 -v 1 -p common/Klf1-200-100.s -n common/Klf1-200-100-shuffled.s &> log
 
-Checking Optional Modules:
-Log::Log4perl missing. Used for logging and debugging by developers.
-Math::CDF missing. Only required for fasta-enriched-center script (which is not called by the web scripts).
-
-sudo cpan HTML::Template
-sudo cpan HTML::TreeBuilder
-sudo cpan JSON
-sudo cpan XML::Compile::SOAP11
-sudo cpan XML::Compile::WSDL11
-sudo cpan XML::Compile::Transport::SOAPHTTP
-sudo cpan Math::CDF
-sudo cpan Log::Log4perl
-sudo cpan File::Which
-
-unset PYTHONPATH
-
-make install 
 
 ./configure --prefix=$HOME/meme --with-url="http://meme-suite.org" --with-db=/Users/cmdb/data/week6_data/meme_4.12.0/db/
+
 make test
 make install
 

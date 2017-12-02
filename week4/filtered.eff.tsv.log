@@ -1,0 +1,10 @@
+PLINK v1.90b3 64-bit (11 Jan 2015)
+5 arguments: --filter --out filtered.eff.tsv --vcf filtered.eff.vcf
+Hostname: BOOTCAMP-21.local
+Working directory: /Users/cmdb/qbb2017-answers/week4
+Start time: Thu Oct 12 20:40:17 2017
+
+Error: --filter requires at least 2 parameters.
+For more information, try 'plink --help [flag name]' or 'plink --help | more'.
+
+End time: Thu Oct 12 20:40:17 2017

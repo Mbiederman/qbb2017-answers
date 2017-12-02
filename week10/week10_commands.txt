@@ -1,0 +1,3 @@
+scipy.cluster.hierarchy.linkage(y, method='single', metric='euclidean')
+
+scipy.cluster.hierarchy.leaves_list(Z)

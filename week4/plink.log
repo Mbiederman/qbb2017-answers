@@ -1,0 +1,11 @@
+PLINK v1.90b3 64-bit (11 Jan 2015)
+2 arguments: --vcf filtered.eff.vcf
+Hostname: BOOTCAMP-21.local
+Working directory: /Users/cmdb/qbb2017-answers/week4
+Start time: Thu Oct 12 20:41:32 2017
+
+Random number seed: 1507855292
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+Error: Failed to open filtered.eff.vcf.
+
+End time: Thu Oct 12 20:41:32 2017

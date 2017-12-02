@@ -1,0 +1,15 @@
+Bin1 NODE_99_length_64419_cov_40.928516	root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Bacilli;Bacillales;Staphylococcaceae;Staphylococcus;Staphylococcus haemolyticus;Staphylococcus haemolyticus JCSC1435
+
+Bin2 NODE_213_length_37420_cov_6.653820	root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Bacilli;Lactobacillales;Leuconostocaceae;Leuconostoc;Leuconostoc citreum;Leuconostoc citreum KM20
+
+Bin3 NODE_1189_length_4249_cov_9.240582	root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Bacilli;Bacillales;Staphylococcaceae;Staphylococcus;Staphylococcus lugdunensis;Staphylococcus lugdunensis N920143
+
+Bin4 NODE_8_length_298793_cov_2547.011572 root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Bacilli;Lactobacillales;Enterococcaceae;Enterococcus;Enterococcus faecalis;Enterococcus faecalis str. Symbioflor 1
+
+Bin5 NODE_7_length_310076_cov_130.336474 root;cellular organisms;Bacteria;Terrabacteria group;Actinobacteria;Actinobacteria;Propionibacteriales;Propionibacteriaceae;Cutibacterium;Cutibacterium avidum;Cutibacterium avidum 44067
+
+Bin6 NODE_100_length_64225_cov_373.885585root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Bacilli;Bacillales;Staphylococcaceae;Staphylococcus;Staphylococcus epidermidis;Staphylococcus epidermidis RP62A
+
+Bin7 NODE_258_length_32643_cov_98.893243root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Bacilli;Bacillales;Staphylococcaceae;Staphylococcus;Staphylococcus aureus;Staphylococcus aureus subsp. aureus;Staphylococcus aureus subsp. aureus ST72;Staphylococcus aureus subsp. aureus CN1
+
+Bin8 NODE_396_length_21162_cov_170.926423 root;cellular organisms;Bacteria;Terrabacteria group;Firmicutes;Clostridia;Clostridiales;Clostridiaceae;Clostridium;Clostridium novyi;Clostridium novyi N

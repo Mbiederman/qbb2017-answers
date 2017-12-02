@@ -1,0 +1,36 @@
+wget https://bitbucket.org/berkeleylab/metabat/downloads/metabat-static-binary-macOS-Sierra-x64_v2.12.1.tar.gz
+
+tar xzvf metabat-static-binary-macOS-Sierra-x64_v2.12.1.tar.gz
+
+install KronaTools: sudo ./install.pl
+./updateTaxonomy.sh
+./updateAccessions.sh
+
+tar -xvf
+
+
+
+./kraken.py assembly.kraken > kraken.txt
+
+awk '{gsub (";","\t")} {print}' kraken.txt> assembly.kraken.txt
+
+
+awk '{gsub (";","\t")} {gsub (" ","\t")} {gsub ("_","\t")}{print}' assembly.kraken> assembly.kraken.tsv
+
+awk '{gsub (";","\t")} {gsub ("_","\t")} {print}' assembly.kraken> assembly.kraken.tsv
+
+awk '{gsub (";","\t")} {print}' assembly.kraken> assembly.kraken.txt
+
+awk '{gsub (";","\t")} {gsub (" ","_")} {print}' assembly.kraken> assembly.kraken.txt
+
+awk '{gsub (";","\t")} {gsub (" ","_")} {print $1, $2, $3, $4, $5, $6}' assembly.kraken> assembly.kraken.phylo.txt
+
+
+ktImportText assembly.kraken.txt
+
+runMetaBat.sh
+
+grep ">" bin.1.fa | less 
+grep NODE_14_length_cov_9.967778 ../KRAKEN/assembly.kraken
+
+metabat2 -i assembly.fa.gz -a depth.txt -o resC1/bin -v
