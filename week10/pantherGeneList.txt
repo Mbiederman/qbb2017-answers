@@ -1,0 +1,160 @@
+MOUSE|MGI=MGI=107813|UniProtKB=Q9ERD7	Tubb3	Tubulin beta-3 chain;Tubb3;ortholog	TUBULIN BETA-3 CHAIN (PTHR11588:SF43)	tubulin(PC00228)	Mus musculus
+MOUSE|MGI=MGI=1926144|UniProtKB=Q9D2R0	Aacs	Acetoacetyl-CoA synthetase;Aacs;ortholog	ACETOACETYL-COA SYNTHETASE (PTHR42921:SF1)	dehydrogenase(PC00092);ligase(PC00142)	Mus musculus
+MOUSE|MGI=MGI=1916351|UniProtKB=Q14BV6	Ydjc	Carbohydrate deacetylase;Ydjc;ortholog	CARBOHYDRATE DEACETYLASE (PTHR31609:SF1)		Mus musculus
+MOUSE|MGI=MGI=97811|UniProtKB=Q64697	Ptprcap	Protein tyrosine phosphatase receptor type C-associated protein;Ptprcap;ortholog	PROTEIN TYROSINE PHOSPHATASE RECEPTOR TYPE C-ASSOCIATED PROTEIN (PTHR15312:SF1)		Mus musculus
+MOUSE|MGI=MGI=108048|UniProtKB=Q3TYX3	Smyd5	SET and MYND domain-containing protein 5;Smyd5;ortholog	SET AND MYND DOMAIN-CONTAINING PROTEIN 5 (PTHR46402:SF2)		Mus musculus
+MOUSE|MGI=MGI=1096867|UniProtKB=Q9CXC9	Etv5	ETS translocation variant 5;Etv5;ortholog	ETS TRANSLOCATION VARIANT 5 (PTHR11849:SF160)	nucleic acid binding(PC00171);signaling molecule(PC00207);winged helix/forkhead transcription factor(PC00246)	Mus musculus
+MOUSE|MGI=MGI=2676394|UniProtKB=Q3UZA1	Rcsd1	CapZ-interacting protein;Rcsd1;ortholog	CAPZ-INTERACTING PROTEIN (PTHR21669:SF2)		Mus musculus
+MOUSE|MGI=MGI=1913102|UniProtKB=Q9Z0S4	Cldn13	Claudin-13;Cldn13;ortholog	CLAUDIN-4 (PTHR12002:SF89)	tight junction(PC00214)	Mus musculus
+MOUSE|MGI=MGI=109235|UniProtKB=B2RXC2	Itpkb	Kinase;Itpkb;ortholog	INOSITOL-TRISPHOSPHATE 3-KINASE B (PTHR12400:SF4)	kinase(PC00137)	Mus musculus
+MOUSE|MGI=MGI=3606476|UniProtKB=Q6PGN1	Fam132b	Erythroferrone;Erfe;ortholog	ERYTHROFERRONE (PTHR24019:SF11)	extracellular matrix structural protein(PC00103)	Mus musculus
+MOUSE|MGI=MGI=1277162|UniProtKB=Q64261	Cdk6	Cyclin-dependent kinase 6;Cdk6;ortholog	CYCLIN-DEPENDENT KINASE 6 (PTHR24056:SF130)	non-receptor serine/threonine protein kinase(PC00167);non-receptor tyrosine protein kinase(PC00168)	Mus musculus
+MOUSE|MGI=MGI=2652816|UniProtKB=Q3U0B3	Dhrs11	Dehydrogenase/reductase SDR family member 11;Dhrs11;ortholog	DEHYDROGENASE/REDUCTASE SDR FAMILY MEMBER 11 (PTHR43115:SF4)	dehydrogenase(PC00092);reductase(PC00198)	Mus musculus
+MOUSE|MGI=MGI=95517|UniProtKB=P05524	Fgf3	Fibroblast growth factor 3;Fgf3;ortholog	FIBROBLAST GROWTH FACTOR 3 (PTHR11486:SF26)	growth factor(PC00112)	Mus musculus
+MOUSE|MGI=MGI=95556|UniProtKB=Q8BTM8	Flna	Filamin-A;Flna;ortholog			Mus musculus
+MOUSE|MGI=MGI=1918035|UniProtKB=Q8CFK6	Dennd1c	DENN domain-containing protein 1C;Dennd1c;ortholog	DENN DOMAIN-CONTAINING PROTEIN 1C (PTHR13196:SF25)		Mus musculus
+MOUSE|MGI=MGI=108427|UniProtKB=O09107	Insl3	Insulin-like 3;Insl3;ortholog	INSULIN-LIKE 3 (PTHR10423:SF3)		Mus musculus
+MOUSE|MGI=MGI=96055|UniProtKB=P29351	Ptpn6	Tyrosine-protein phosphatase non-receptor type 6;Ptpn6;ortholog	TYROSINE-PROTEIN PHOSPHATASE NON-RECEPTOR TYPE 6 (PTHR46257:SF4)		Mus musculus
+MOUSE|MGI=MGI=2385853|UniProtKB=Q3U2V3	Nudt18	8-oxo-dGDP phosphatase NUDT18;Nudt18;ortholog	8-OXO-DGDP PHOSPHATASE NUDT18 (PTHR22769:SF56)		Mus musculus
+MOUSE|MGI=MGI=95760|UniProtKB=P28571	Slc6a9	Sodium- and chloride-dependent glycine transporter 1;Slc6a9;ortholog	SODIUM- AND CHLORIDE-DEPENDENT GLYCINE TRANSPORTER 1 (PTHR11616:SF241)	cation transporter(PC00068)	Mus musculus
+MOUSE|MGI=MGI=1861434|UniProtKB=Q9R013	Ctsf	Cathepsin F;Ctsf;ortholog	CATHEPSIN F (PTHR12411:SF444)	cysteine protease(PC00081);protease inhibitor(PC00191)	Mus musculus
+MOUSE|MGI=MGI=104558|UniProtKB=P18653	Rps6ka1	Ribosomal protein S6 kinase alpha-1;Rps6ka1;ortholog	RIBOSOMAL PROTEIN S6 KINASE ALPHA-1 (PTHR24351:SF110)	annexin(PC00050);calmodulin(PC00061);non-receptor serine/threonine protein kinase(PC00167);transfer/carrier protein(PC00219)	Mus musculus
+MOUSE|MGI=MGI=104568|UniProtKB=P49710	Hcls1	Hematopoietic lineage cell-specific protein;Hcls1;ortholog	HEMATOPOIETIC LINEAGE CELL-SPECIFIC PROTEIN (PTHR10829:SF5)	basic helix-loop-helix transcription factor(PC00055);non-motor actin binding protein(PC00165)	Mus musculus
+MOUSE|MGI=MGI=95602|UniProtKB=P39688	Fyn	Tyrosine-protein kinase Fyn;Fyn;ortholog	TYROSINE-PROTEIN KINASE FYN (PTHR24418:SF44)		Mus musculus
+MOUSE|MGI=MGI=3605071|UniProtKB=Q65Z93	Ypel4	Protein yippee-like 4;Ypel4;ortholog	PROTEIN YIPPEE-LIKE 4 (PTHR13848:SF17)		Mus musculus
+MOUSE|MGI=MGI=1096383|UniProtKB=O35622	Fgf15	Fibroblast growth factor 15;Fgf15;ortholog	FIBROBLAST GROWTH FACTOR 19 (PTHR11486:SF74)	growth factor(PC00112)	Mus musculus
+MOUSE|MGI=MGI=97815|UniProtKB=B0V2N1	Ptprs	Receptor-type tyrosine-protein phosphatase S;Ptprs;ortholog	RECEPTOR-TYPE TYROSINE-PROTEIN PHOSPHATASE S (PTHR19134:SF472)	protein phosphatase(PC00195)	Mus musculus
+MOUSE|MGI=MGI=1345961|UniProtKB=O89053	Coro1a	Coronin-1A;Coro1a;ortholog	CORONIN-1A (PTHR10856:SF18)	non-motor actin binding protein(PC00165)	Mus musculus
+MOUSE|MGI=MGI=1919166|UniProtKB=Q32M08	Dus4l	tRNA-dihydrouridine(20a/20b) synthase [NAD(P)+]-like;Dus4l;ortholog	TRNA-DIHYDROURIDINE 20A/20B  SYNTHASE [NAD P +]-LIKE (PTHR11082:SF31)		Mus musculus
+MOUSE|MGI=MGI=1345144|UniProtKB=Q9WTP2	Spry4	Protein sprouty homolog 4;Spry4;ortholog	PROTEIN SPROUTY HOMOLOG 4 (PTHR12365:SF6)	signaling molecule(PC00207);transcription factor(PC00218)	Mus musculus
+MOUSE|MGI=MGI=98730|UniProtKB=Q9JLF6	Tgm1	Protein-glutamine gamma-glutamyltransferase K;Tgm1;ortholog	PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE K (PTHR11590:SF49)	acyltransferase(PC00042)	Mus musculus
+MOUSE|MGI=MGI=97770|UniProtKB=Q9WU79	Prodh	Proline dehydrogenase 1, mitochondrial;Prodh;ortholog	PROLINE DEHYDROGENASE 1, MITOCHONDRIAL (PTHR13914:SF0)		Mus musculus
+MOUSE|MGI=MGI=108093|UniProtKB=P70444	Bid	BH3-interacting domain death agonist;Bid;ortholog	BH3-INTERACTING DOMAIN DEATH AGONIST (PTHR35447:SF1)		Mus musculus
+MOUSE|MGI=MGI=96949|UniProtKB=P12025	Mdk	Midkine;Mdk;ortholog	MIDKINE (PTHR13850:SF2)	cytokine(PC00083)	Mus musculus
+MOUSE|MGI=MGI=2444329|UniProtKB=Q3TYP4	Tmem88b	Transmembrane protein 88B;Tmem88b;ortholog	TRANSMEMBRANE PROTEIN 88B (PTHR28628:SF2)		Mus musculus
+MOUSE|MGI=MGI=1916441|UniProtKB=D3Z6P0	Pdia2	Protein disulfide-isomerase A2;Pdia2;ortholog	PROTEIN DISULFIDE-ISOMERASE A2 (PTHR18929:SF93)		Mus musculus
+MOUSE|MGI=MGI=2138993|UniProtKB=Q6NVG1	Lpcat4	Lysophospholipid acyltransferase LPCAT4;Lpcat4;ortholog	LYSOPHOSPHOLIPID ACYLTRANSFERASE LPCAT4 (PTHR23063:SF7)	acyltransferase(PC00042);annexin(PC00050);calmodulin(PC00061)	Mus musculus
+MOUSE|MGI=MGI=98360|UniProtKB=Q04890	Sox12	Transcription factor SOX-12;Sox12;ortholog	TRANSCRIPTION FACTOR SOX-12 (PTHR10270:SF221)	HMG box transcription factor(PC00024)	Mus musculus
+MOUSE|MGI=MGI=109234|UniProtKB=Q9QXL1	Kif21b	Kinesin-like protein KIF21B;Kif21b;ortholog	KINESIN-LIKE PROTEIN KIF21B (PTHR24115:SF335)	microtubule binding motor protein(PC00156)	Mus musculus
+MOUSE|MGI=MGI=1927091|UniProtKB=Q5SUA5	Myo1g	Unconventional myosin-Ig;Myo1g;ortholog	UNCONVENTIONAL MYOSIN-IG (PTHR13140:SF381)	G-protein modulator(PC00022);actin binding motor protein(PC00040);cell junction protein(PC00070)	Mus musculus
+MOUSE|MGI=MGI=1915401|UniProtKB=Q6DID7	Wls	Protein wntless homolog;Wls;ortholog	PROTEIN WNTLESS HOMOLOG (PTHR13449:SF2)		Mus musculus
+MOUSE|MGI=MGI=1349462|UniProtKB=Q9DBK7	Uba7	MCG18845, isoform CRA_d;Uba7;ortholog	UBIQUITIN-LIKE MODIFIER-ACTIVATING ENZYME 7 (PTHR10953:SF143)	ligase(PC00142);transfer/carrier protein(PC00219)	Mus musculus
+MOUSE|MGI=MGI=1923839|UniProtKB=Q6R653	Unc5cl	UNC5C-like protein;Unc5cl;ortholog	UNC5C-LIKE PROTEIN (PTHR12582:SF41)	receptor(PC00197)	Mus musculus
+MOUSE|MGI=MGI=1861729|UniProtKB=Q9JJ59	Abcb9	ATP-binding cassette sub-family B member 9;Abcb9;ortholog	ATP-BINDING CASSETTE SUB-FAMILY B MEMBER 9 (PTHR24221:SF242)	cysteine protease(PC00081);serine protease(PC00203)	Mus musculus
+MOUSE|MGI=MGI=2652839|UniProtKB=B1ASA5	Zfp362	Zinc finger protein 362;Zfp362;ortholog			Mus musculus
+MOUSE|MGI=MGI=1354739|UniProtKB=Q9Z2H1	Rgs11	Regulator of G-protein signaling 11;Rgs11;ortholog	REGULATOR OF G-PROTEIN SIGNALING 11 (PTHR45746:SF3)		Mus musculus
+MOUSE|MGI=MGI=1920004|UniProtKB=A2AWP8	Arhgef10l	Rho guanine nucleotide exchange factor 10-like protein;Arhgef10l;ortholog	RHO GUANINE NUCLEOTIDE EXCHANGE FACTOR 10-LIKE PROTEIN (PTHR12877:SF16)	cysteine protease(PC00081)	Mus musculus
+MOUSE|MGI=MGI=102700|UniProtKB=Q61738	Itga7	Integrin alpha-7;Itga7;ortholog	INTEGRIN ALPHA-7 (PTHR23220:SF90)		Mus musculus
+MOUSE|MGI=MGI=1917200|UniProtKB=Q99LJ7	Rcbtb2	RCC1 and BTB domain-containing protein 2;Rcbtb2;ortholog	RCC1 AND BTB DOMAIN-CONTAINING PROTEIN 2 (PTHR22870:SF220)	chromatin/chromatin-binding protein(PC00077);guanyl-nucleotide exchange factor(PC00113)	Mus musculus
+MOUSE|MGI=MGI=1098604|UniProtKB=Q7TT45	Rragd	Ras-related GTP-binding protein D;Rragd;ortholog	RAS-RELATED GTP-BINDING PROTEIN D (PTHR11259:SF5)	small GTPase(PC00208)	Mus musculus
+MOUSE|MGI=MGI=1858222|UniProtKB=Q80UG5	Sept9	Septin-9;Sept9;ortholog	SEPTIN-9 (PTHR18884:SF47)	cytoskeletal protein(PC00085);small GTPase(PC00208)	Mus musculus
+MOUSE|MGI=MGI=1915978|UniProtKB=Q8CFU8	Trp53inp2	Tumor protein p53-inducible nuclear protein 2;Tp53inp2;ortholog	TUMOR PROTEIN P53-INDUCIBLE NUCLEAR PROTEIN 2 (PTHR31671:SF2)		Mus musculus
+MOUSE|MGI=MGI=106018|UniProtKB=Q64692	St8sia4	CMP-N-acetylneuraminate-poly-alpha-2,8-sialyltransferase;St8sia4;ortholog	CMP-N-ACETYLNEURAMINATE-POLY-ALPHA-2,8-SIALYLTRANSFERASE (PTHR11987:SF48)		Mus musculus
+MOUSE|MGI=MGI=109496|UniProtKB=O08573	Lgals9	Galectin-9;Lgals9;ortholog	GALECTIN-9 (PTHR11346:SF80)	cell adhesion molecule(PC00069);signaling molecule(PC00207)	Mus musculus
+MOUSE|MGI=MGI=108570|UniProtKB=Q61090	Fzd7	Frizzled-7;Fzd7;ortholog	FRIZZLED-7 (PTHR11309:SF31)	G-protein coupled receptor(PC00021);protease inhibitor(PC00191);signaling molecule(PC00207)	Mus musculus
+MOUSE|MGI=MGI=1925114|UniProtKB=Q65Z95	Ypel2	Protein yippee-like 2;Ypel2;ortholog	PROTEIN YIPPEE-LIKE 2 (PTHR13848:SF3)		Mus musculus
+MOUSE|MGI=MGI=1914643|UniProtKB=Q91WA4	Cxxc5	CXXC-type zinc finger protein 5;Cxxc5;ortholog	CXXC-TYPE ZINC FINGER PROTEIN 5 (PTHR13419:SF2)		Mus musculus
+MOUSE|MGI=MGI=96298|UniProtKB=Q91ZJ9	Hyal1	Hyaluronidase-1;Hyal1;ortholog	HYALURONIDASE-1 (PTHR11769:SF23)	glycosidase(PC00110);receptor(PC00197)	Mus musculus
+MOUSE|MGI=MGI=96027|UniProtKB=P02104	Hbb-y	Hemoglobin subunit epsilon-Y2;Hbb-y;ortholog	HEMOGLOBIN SUBUNIT EPSILON (PTHR11442:SF7)		Mus musculus
+MOUSE|MGI=MGI=2144281|UniProtKB=Q8R3V6	Cuedc1	CUE domain-containing protein 1;Cuedc1;ortholog	CUE DOMAIN-CONTAINING PROTEIN 1 (PTHR13467:SF3)		Mus musculus
+MOUSE|MGI=MGI=1100859|UniProtKB=O08688	Capn5	Calpain-5;Capn5;ortholog	CALPAIN-5 (PTHR10183:SF370)	annexin(PC00050);calmodulin(PC00061);cysteine protease(PC00081)	Mus musculus
+MOUSE|MGI=MGI=1858916|UniProtKB=P42209	Sept1	Septin-1;Sept1;ortholog	SEPTIN-1 (PTHR18884:SF6)	cytoskeletal protein(PC00085);small GTPase(PC00208)	Mus musculus
+MOUSE|MGI=MGI=103239|UniProtKB=Q9JIZ5	Tfap4	Activator protein 4;Tfap4;ortholog	TRANSCRIPTION FACTOR AP-4 (PTHR15741:SF27)		Mus musculus
+MOUSE|MGI=MGI=2384786|UniProtKB=Q91XE9	Creb3l3	Cyclic AMP-responsive element-binding protein 3-like protein 3;Creb3l3;ortholog	CYCLIC AMP-RESPONSIVE ELEMENT-BINDING PROTEIN 3-LIKE PROTEIN 3 (PTHR45996:SF1)		Mus musculus
+MOUSE|MGI=MGI=2444263|UniProtKB=Q8BTG3	Tcp11l1	T-complex protein 11-like protein 1;Tcp11l1;ortholog	T-COMPLEX PROTEIN 11-LIKE PROTEIN 1 (PTHR12832:SF15)	receptor(PC00197)	Mus musculus
+MOUSE|MGI=MGI=2685385|UniProtKB=A2CG49	Kalrn	Kalirin;Kalrn;ortholog	KALIRIN (PTHR22826:SF49)	signaling molecule(PC00207)	Mus musculus
+MOUSE|MGI=MGI=104971|UniProtKB=Q9D975	Srxn1	Sulfiredoxin-1;Srxn1;ortholog	SULFIREDOXIN-1 (PTHR21348:SF2)		Mus musculus
+MOUSE|MGI=MGI=96433|UniProtKB=Q60751	Igf1r	Insulin-like growth factor 1 receptor;Igf1r;ortholog	INSULIN-LIKE GROWTH FACTOR 1 RECEPTOR (PTHR24416:SF106)		Mus musculus
+MOUSE|MGI=MGI=1919299|UniProtKB=Q9D8D0	Tnfrsf13c	Tumor necrosis factor receptor superfamily member 13C;Tnfrsf13c;ortholog	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13C (PTHR20437:SF2)		Mus musculus
+MOUSE|MGI=MGI=1919245|UniProtKB=Q9DAX3	Erv3	Endogenous retroviral sequence 3;Erv3;ortholog			Mus musculus
+MOUSE|MGI=MGI=87990|UniProtKB=P08680	Alas2	5-aminolevulinate synthase, erythroid-specific, mitochondrial;Alas2;ortholog	5-AMINOLEVULINATE SYNTHASE, ERYTHROID-SPECIFIC, MITOCHONDRIAL (PTHR13693:SF58)	transaminase(PC00216)	Mus musculus
+MOUSE|MGI=MGI=1352753|UniProtKB=Q0P543	Gipr	Gastric inhibitory polypeptide receptor;Gipr;ortholog	GASTRIC INHIBITORY POLYPEPTIDE RECEPTOR (PTHR45620:SF4)		Mus musculus
+MOUSE|MGI=MGI=97249|UniProtKB=P06876	Myb	Transcriptional activator Myb;Myb;ortholog	TRANSCRIPTIONAL ACTIVATOR MYB (PTHR45614:SF5)		Mus musculus
+MOUSE|MGI=MGI=103182|UniProtKB=P41438	Slc19a1	Folate transporter 1;Slc19a1;ortholog	FOLATE TRANSPORTER 1 (PTHR10686:SF12)	transporter(PC00227)	Mus musculus
+MOUSE|MGI=MGI=98932|UniProtKB=P20152	Vim	Vimentin;Vim;ortholog	VIMENTIN (PTHR45652:SF5)		Mus musculus
+MOUSE|MGI=MGI=1354744|UniProtKB=Q8BK26	Fbxo44	F-box only protein 44;Fbxo44;ortholog	F-BOX ONLY PROTEIN 44 (PTHR12125:SF12)		Mus musculus
+MOUSE|MGI=MGI=1277968|UniProtKB=O54724	Ptrf	Polymerase I and transcript release factor;Ptrf;ortholog	POLYMERASE I AND TRANSCRIPT RELEASE FACTOR (PTHR15240:SF3)	transcription factor(PC00218)	Mus musculus
+MOUSE|MGI=MGI=1339760|UniProtKB=P26954	Csf2rb2	Interleukin-3 receptor class 2 subunit beta;Csf2rb2;ortholog	CYTOKINE RECEPTOR COMMON SUBUNIT BETA (PTHR23037:SF22)	type I cytokine receptor(PC00231)	Mus musculus
+MOUSE|MGI=MGI=2385244|UniProtKB=Q91WN2	Tmem150a	Transmembrane protein 150A;Tmem150a;ortholog	TRANSMEMBRANE PROTEIN 150A (PTHR21324:SF6)		Mus musculus
+MOUSE|MGI=MGI=1914466|UniProtKB=Q8R3I2	Lpcat4	Lysophospholipid acyltransferase 2;Mboat2;ortholog	LYSOPHOSPHOLIPID ACYLTRANSFERASE 2 (PTHR13906:SF7)	acetyltransferase(PC00038)	Mus musculus
+MOUSE|MGI=MGI=1926834|UniProtKB=Q9ER35	Fn3k	Fructosamine-3-kinase;Fn3k;ortholog	FRUCTOSAMINE-3-KINASE (PTHR12149:SF9)		Mus musculus
+MOUSE|MGI=MGI=96414|UniProtKB=P54071	Idh2	Isocitrate dehydrogenase [NADP], mitochondrial;Idh2;ortholog	ISOCITRATE DEHYDROGENASE [NADP], MITOCHONDRIAL (PTHR11822:SF11)		Mus musculus
+MOUSE|MGI=MGI=1338032|UniProtKB=Q9WTM3	Sema6c	Semaphorin-6C;Sema6c;ortholog	SEMAPHORIN-6C (PTHR11036:SF11)	membrane-bound signaling molecule(PC00152)	Mus musculus
+MOUSE|MGI=MGI=1926609|UniProtKB=Q9QXE4	Trp53inp1	Tumor protein p53-inducible nuclear protein 1;Trp53inp1;ortholog	TUMOR PROTEIN P53-INDUCIBLE NUCLEAR PROTEIN 1 (PTHR31671:SF0)		Mus musculus
+MOUSE|MGI=MGI=1098259|UniProtKB=P24452	Capg	Macrophage-capping protein;Capg;ortholog	MACROPHAGE-CAPPING PROTEIN (PTHR11977:SF13)	non-motor actin binding protein(PC00165)	Mus musculus
+MOUSE|MGI=MGI=1915938|UniProtKB=Q8VD66	Abhd4	Protein ABHD4;Abhd4;ortholog	PROTEIN ABHD4 (PTHR42886:SF21)	serine protease(PC00203)	Mus musculus
+MOUSE|MGI=MGI=109393|UniProtKB=P04919	Slc4a1	Band 3 anion transport protein;Slc4a1;ortholog	BAND 3 ANION TRANSPORT PROTEIN (PTHR11453:SF12)	transporter(PC00227)	Mus musculus
+MOUSE|MGI=MGI=1924059|UniProtKB=Q8BXV2	Bri3bp	BRI3-binding protein;Bri3bp;ortholog	BRI3-BINDING PROTEIN (PTHR31253:SF0)		Mus musculus
+MOUSE|MGI=MGI=1277122|UniProtKB=Q8BH97	Rcn3	Reticulocalbin-3;Rcn3;ortholog	RETICULOCALBIN-3 (PTHR10827:SF47)	calmodulin(PC00061)	Mus musculus
+MOUSE|MGI=MGI=1914708|UniProtKB=Q9DC16	Ergic1	Endoplasmic reticulum-Golgi intermediate compartment protein 1;Ergic1;ortholog	ENDOPLASMIC RETICULUM-GOLGI INTERMEDIATE COMPARTMENT PROTEIN 1 (PTHR10984:SF36)		Mus musculus
+MOUSE|MGI=MGI=107739|UniProtKB=P70677	Casp3	Caspase-3;Casp3;ortholog	CASPASE-3 (PTHR10454:SF198)	cysteine protease(PC00081);protease inhibitor(PC00191)	Mus musculus
+MOUSE|MGI=MGI=1096324|UniProtKB=O08843	Lst1	Leukocyte-specific transcript 1 protein;Lst1;ortholog	LEUKOCYTE-SPECIFIC TRANSCRIPT 1 PROTEIN (PTHR15452:SF5)		Mus musculus
+MOUSE|MGI=MGI=1337114|UniProtKB=O88892	Serf1	Small EDRK-rich factor 1;Serf1;ortholog	SMALL EDRK-RICH FACTOR 1 (PTHR13596:SF1)		Mus musculus
+MOUSE|MGI=MGI=1861457|UniProtKB=P63168	Dlc1	Dynein light chain 1, cytoplasmic;Dynll1;ortholog	DYNEIN LIGHT CHAIN 1, CYTOPLASMIC (PTHR11886:SF52)	enzyme modulator(PC00095);microtubule family cytoskeletal protein(PC00157)	Mus musculus
+MOUSE|MGI=MGI=2147274|UniProtKB=Q8R5G7	Arap3	Arf-GAP with Rho-GAP domain, ANK repeat and PH domain-containing protein 3;Arap3;ortholog	ARF-GAP WITH RHO-GAP DOMAIN, ANK REPEAT AND PH DOMAIN-CONTAINING PROTEIN 3 (PTHR45899:SF4)		Mus musculus
+MOUSE|MGI=MGI=2385897|UniProtKB=Q3UFJ6	Tmem184a	Transmembrane protein 184A;Tmem184a;ortholog	TRANSMEMBRANE PROTEIN 184A (PTHR23423:SF59)	transporter(PC00227)	Mus musculus
+MOUSE|MGI=MGI=1338891|UniProtKB=Q9Z184	Padi3	Protein-arginine deiminase type-3;Padi3;ortholog	PROTEIN-ARGININE DEIMINASE TYPE-3 (PTHR10837:SF21)		Mus musculus
+MOUSE|MGI=MGI=87999|UniProtKB=P48999	Alox5	Arachidonate 5-lipoxygenase;Alox5;ortholog	ARACHIDONATE 5-LIPOXYGENASE (PTHR11771:SF5)	oxygenase(PC00177)	Mus musculus
+MOUSE|MGI=MGI=1928739|UniProtKB=Q9QYI5	Dnajb2	DnaJ homolog subfamily B member 2;Dnajb2;ortholog	DNAJ HOMOLOG SUBFAMILY B MEMBER 2 (PTHR45168:SF1)		Mus musculus
+MOUSE|MGI=MGI=2443052|UniProtKB=Q1RLL3	Cpne9	Copine-9;Cpne9;ortholog	COPINE-9 (PTHR10857:SF112)		Mus musculus
+MOUSE|MGI=MGI=103118|UniProtKB=Q62556	Btn1a1	Butyrophilin subfamily 1 member A1;Btn1a1;ortholog	BUTYROPHILIN SUBFAMILY 1 MEMBER A1 (PTHR24100:SF103)	protease inhibitor(PC00191)	Mus musculus
+MOUSE|MGI=MGI=1341722|UniProtKB=O35219	Kcnh2	Potassium voltage-gated channel subfamily H member 2;Kcnh2;ortholog	POTASSIUM VOLTAGE-GATED CHANNEL SUBFAMILY H MEMBER 2 (PTHR10217:SF506)		Mus musculus
+MOUSE|MGI=MGI=88479|UniProtKB=P15089	Cpa3	Mast cell carboxypeptidase A;Cpa3;ortholog	MAST CELL CARBOXYPEPTIDASE A (PTHR11705:SF65)	metalloprotease(PC00153)	Mus musculus
+MOUSE|MGI=MGI=96160|UniProtKB=P17095	Hmga1	High mobility group protein HMG-I/HMG-Y;Hmga1;ortholog	HIGH MOBILITY GROUP PROTEIN HMG-I/HMG-Y (PTHR23341:SF1)	DNA binding protein(PC00009)	Mus musculus
+MOUSE|MGI=MGI=1340030|UniProtKB=Q9JM58	Crlf1	Cytokine receptor-like factor 1;Crlf1;ortholog	CYTOKINE RECEPTOR-LIKE FACTOR 1 (PTHR23036:SF16)	cytokine(PC00083);defense/immunity protein(PC00090)	Mus musculus
+MOUSE|MGI=MGI=1913370|UniProtKB=Q9D1M7	Fkbp11	Peptidyl-prolyl cis-trans isomerase FKBP11;Fkbp11;ortholog	PEPTIDYL-PROLYL CIS-TRANS ISOMERASE FKBP11 (PTHR45779:SF2)		Mus musculus
+MOUSE|MGI=MGI=1933146|UniProtKB=Q8BGM4	Wbscr27	Putative uncharacterized protein;Wbscr27;ortholog	WILLIAMS-BEUREN SYNDROME CHROMOSOMAL REGION 27 PROTEIN (PTHR43591:SF29)		Mus musculus
+MOUSE|MGI=MGI=1921341|UniProtKB=Q9DCJ9	Npl	N-acetylneuraminate lyase;Npl;ortholog	N-ACETYLNEURAMINATE LYASE (PTHR12128:SF21)	lyase(PC00144)	Mus musculus
+MOUSE|MGI=MGI=1919490|UniProtKB=Q9DAX4	1600014C23Rik	Putative uncharacterized protein;1600014C23Rik;ortholog			Mus musculus
+MOUSE|MGI=MGI=1341894|UniProtKB=Q9R2B6	St6galnac4	Alpha-N-acetyl-neuraminyl-2,3-beta-galactosyl-1,3-N-acetyl-galactosaminide alpha-2,6-sialyltransferase;St6galnac4;ortholog	ALPHA-N-ACETYL-NEURAMINYL-2,3-BETA-GALACTOSYL-1,3-N-ACETYL-GALACTOSAMINIDE ALPHA-2,6-SIALYLTRANSFERASE (PTHR45906:SF4)		Mus musculus
+MOUSE|MGI=MGI=98427|UniProtKB=P14719	Il1rl1	Interleukin-1 receptor-like 1;Il1rl1;ortholog	INTERLEUKIN-1 RECEPTOR-LIKE 1 (PTHR11890:SF7)	type I cytokine receptor(PC00231)	Mus musculus
+MOUSE|MGI=MGI=1321402|UniProtKB=Q60787	Lcp2	Lymphocyte cytosolic protein 2;Lcp2;ortholog	LYMPHOCYTE CYTOSOLIC PROTEIN 2 (PTHR14098:SF1)	signaling molecule(PC00207)	Mus musculus
+MOUSE|MGI=MGI=1202307|UniProtKB=O08969	Phlda2	Pleckstrin homology-like domain family A member 2;Phlda2;ortholog	PLECKSTRIN HOMOLOGY-LIKE DOMAIN FAMILY A MEMBER 2 (PTHR15478:SF8)		Mus musculus
+MOUSE|MGI=MGI=1914992|UniProtKB=P57725	Samsn1	SAM domain-containing protein SAMSN-1;Samsn1;ortholog	SAM DOMAIN-CONTAINING PROTEIN SAMSN-1 (PTHR12301:SF4)		Mus musculus
+MOUSE|MGI=MGI=3603158|UniProtKB=Q3TA38	Tmem120b	Transmembrane protein 120B;Tmem120b;ortholog	TRANSMEMBRANE PROTEIN 120B (PTHR21433:SF2)		Mus musculus
+MOUSE|MGI=MGI=96891|UniProtKB=P27792	Lyl1	Protein lyl-1;Lyl1;ortholog	PROTEIN LYL-1 (PTHR13864:SF6)	basic helix-loop-helix transcription factor(PC00055);nucleic acid binding(PC00171)	Mus musculus
+MOUSE|MGI=MGI=2687284|UniProtKB=Q6DTY7	Pfkfb4	6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 4;Pfkfb4;ortholog	6-PHOSPHOFRUCTO-2-KINASE/FRUCTOSE-2,6-BISPHOSPHATASE 4 (PTHR10606:SF14)	carbohydrate phosphatase(PC00066)	Mus musculus
+MOUSE|MGI=MGI=2148066|UniProtKB=Q3U1J0	Slc38a5	Sodium-coupled neutral amino acid transporter 5;Slc38a5;ortholog	SODIUM-COUPLED NEUTRAL AMINO ACID TRANSPORTER 5 (PTHR22950:SF74)	amino acid transporter(PC00046)	Mus musculus
+MOUSE|MGI=MGI=106626|UniProtKB=O09112	Dusp8	Dual specificity protein phosphatase 8;Dusp8;ortholog	DUAL SPECIFICITY PROTEIN PHOSPHATASE 8 (PTHR10159:SF108)		Mus musculus
+MOUSE|MGI=MGI=96163|UniProtKB=P14901	Hmox1	Heme oxygenase 1;Hmox1;ortholog	HEME OXYGENASE 1 (PTHR10720:SF1)	oxygenase(PC00177)	Mus musculus
+MOUSE|MGI=MGI=96677|UniProtKB=P05532	Kit	Mast/stem cell growth factor receptor Kit;Kit;ortholog	MAST/STEM CELL GROWTH FACTOR RECEPTOR KIT (PTHR24416:SF46)		Mus musculus
+MOUSE|MGI=MGI=98754|UniProtKB=P39876	Timp3	Metalloproteinase inhibitor 3;Timp3;ortholog	METALLOPROTEINASE INHIBITOR 3 (PTHR11844:SF22)	protease inhibitor(PC00191)	Mus musculus
+MOUSE|MGI=MGI=98731|UniProtKB=P21981	Tgm2	Protein-glutamine gamma-glutamyltransferase 2;Tgm2;ortholog	PROTEIN-GLUTAMINE GAMMA-GLUTAMYLTRANSFERASE 2 (PTHR11590:SF6)	acyltransferase(PC00042)	Mus musculus
+MOUSE|MGI=MGI=2442640|UniProtKB=Q812E0	Cpeb2	Cytoplasmic polyadenylation element-binding protein 2;Cpeb2;ortholog	CYTOPLASMIC POLYADENYLATION ELEMENT-BINDING PROTEIN 2 (PTHR12566:SF8)	mRNA polyadenylation factor(PC00146)	Mus musculus
+MOUSE|MGI=MGI=107814|UniProtKB=A2AQ07	Tubb1	Tubulin beta-1 chain;Tubb1;ortholog	TUBULIN BETA-1 CHAIN (PTHR11588:SF112)	tubulin(PC00228)	Mus musculus
+MOUSE|MGI=MGI=1915764|UniProtKB=Q8CD10	Efha1	Calcium uptake protein 2, mitochondrial;Micu2;ortholog	CALCIUM UPTAKE PROTEIN 2, MITOCHONDRIAL (PTHR12294:SF3)	calmodulin(PC00061)	Mus musculus
+MOUSE|MGI=MGI=1354949|UniProtKB=Q9R0Z9	Dlc1	Rho GTPase-activating protein 7;Dlc1;ortholog	RHO GTPASE-ACTIVATING PROTEIN 7 (PTHR12659:SF2)		Mus musculus
+MOUSE|MGI=MGI=97309|UniProtKB=P19246	Nefh	Neurofilament heavy polypeptide;Nefh;ortholog	NEUROFILAMENT HEAVY POLYPEPTIDE (PTHR23214:SF1)		Mus musculus
+MOUSE|MGI=MGI=1913340|UniProtKB=P61237	Ypel3	Protein yippee-like 3;Ypel3;ortholog	PROTEIN YIPPEE-LIKE 3 (PTHR13848:SF6)		Mus musculus
+MOUSE|MGI=MGI=1889411|UniProtKB=Q9ET35	Tnfrsf13b	Tumor necrosis factor receptor superfamily member 13B;Tnfrsf13b;ortholog	TUMOR NECROSIS FACTOR RECEPTOR SUPERFAMILY MEMBER 13B (PTHR15511:SF2)		Mus musculus
+MOUSE|MGI=MGI=1195268|UniProtKB=O55242	Sigmar1	Sigma non-opioid intracellular receptor 1;Sigmar1;ortholog	SIGMA NON-OPIOID INTRACELLULAR RECEPTOR 1 (PTHR10868:SF1)		Mus musculus
+MOUSE|MGI=MGI=1351869|UniProtKB=Q8K183	Pdxk	Pyridoxal kinase;Pdxk;ortholog	PYRIDOXAL KINASE (PTHR10534:SF2)	kinase(PC00137)	Mus musculus
+MOUSE|MGI=MGI=94885|UniProtKB=P31001	Des	Desmin;Des;ortholog	DESMIN (PTHR45652:SF2)		Mus musculus
+MOUSE|MGI=MGI=1918979|UniProtKB=Q8CGE9	Rgs12	Regulator of G-protein signaling 12;Rgs12;ortholog	REGULATOR OF G-PROTEIN SIGNALING 12 (PTHR45945:SF1)		Mus musculus
+MOUSE|MGI=MGI=88268|UniProtKB=P13634	Car1	Carbonic anhydrase 1;Ca1;ortholog	CARBONIC ANHYDRASE 1 (PTHR18952:SF82)		Mus musculus
+MOUSE|MGI=MGI=1922082|UniProtKB=Q8K0H7	Slc45a3	Solute carrier family 45 member 3;Slc45a3;ortholog	SOLUTE CARRIER FAMILY 45 MEMBER 3 (PTHR19432:SF37)	carbohydrate transporter(PC00067)	Mus musculus
+MOUSE|MGI=MGI=102539|UniProtKB=P70327	Tbx6	T-box transcription factor TBX6;Tbx6;ortholog	T-BOX TRANSCRIPTION FACTOR TBX6 (PTHR11267:SF100)	Rel homology transcription factor(PC00252);nucleic acid binding(PC00171)	Mus musculus
+MOUSE|MGI=MGI=98347|UniProtKB=P63163	Snrpn	Small nuclear ribonucleoprotein-associated protein N;Snrpn;ortholog	SMALL NUCLEAR RIBONUCLEOPROTEIN-ASSOCIATED PROTEIN N (PTHR10701:SF10)	mRNA splicing factor(PC00148)	Mus musculus
+MOUSE|MGI=MGI=2447166|UniProtKB=Q9ESD6	Cmtm7	CKLF-like MARVEL transmembrane domain-containing protein 7;Cmtm7;ortholog	CKLF-LIKE MARVEL TRANSMEMBRANE DOMAIN-CONTAINING PROTEIN 7 (PTHR22776:SF31)		Mus musculus
+MOUSE|MGI=MGI=2684972|UniProtKB=Q3ULZ2	Fhdc1	FH2 domain-containing protein 1;Fhdc1;ortholog	FH2 DOMAIN-CONTAINING PROTEIN 1 (PTHR45691:SF1)		Mus musculus
+MOUSE|MGI=MGI=1915153|UniProtKB=Q9CX84	Rgs19	Regulator of G-protein signaling 19;Rgs19;ortholog	REGULATOR OF G-PROTEIN SIGNALING 19 (PTHR10845:SF145)	G-protein modulator(PC00022)	Mus musculus
+MOUSE|MGI=MGI=1315215|UniProtKB=O88876	Dhrs3	Short-chain dehydrogenase/reductase 3;Dhrs3;ortholog	SHORT-CHAIN DEHYDROGENASE/REDUCTASE 3 (PTHR24322:SF483)		Mus musculus
+MOUSE|MGI=MGI=107563|UniProtKB=Q61127	Nab2	NGFI-A-binding protein 2;Nab2;ortholog	NGFI-A-BINDING PROTEIN 2 (PTHR12623:SF6)		Mus musculus
+MOUSE|MGI=MGI=106591|UniProtKB=P51942	Matn1	Cartilage matrix protein;Matn1;ortholog			Mus musculus
+MOUSE|MGI=MGI=103010|UniProtKB=Q9Z2H5	Epb4	Band 4.1-like protein 1;Epb41l1;ortholog	BAND 4.1-LIKE PROTEIN 1 (PTHR23280:SF24)		Mus musculus
+MOUSE|MGI=MGI=1913819|UniProtKB=Q9CRY7	Gdpd1	Glycerophosphodiester phosphodiesterase domain-containing protein 1;Gdpd1;ortholog	GLYCEROPHOSPHODIESTER PHOSPHODIESTERASE DOMAIN-CONTAINING PROTEIN 1 (PTHR42758:SF1)		Mus musculus
+MOUSE|MGI=MGI=1194503|UniProtKB=Q64518	Atp2a3	Sarcoplasmic/endoplasmic reticulum calcium ATPase 3;Atp2a3;ortholog	SARCOPLASMIC/ENDOPLASMIC RETICULUM CALCIUM ATPASE 3 (PTHR42861:SF6)	cation transporter(PC00068);hydrolase(PC00121);ion channel(PC00133)	Mus musculus
+MOUSE|MGI=MGI=1342293|UniProtKB=O54957	Lat	Linker for activation of T-cells family member 1;Lat;ortholog	LINKER FOR ACTIVATION OF T-CELLS FAMILY MEMBER 1 (PTHR15586:SF0)		Mus musculus
+MOUSE|MGI=MGI=1914962|UniProtKB=Q920G8	Slc25a37	Mitoferrin-1;Slc25a37;ortholog	MITOFERRIN-1 (PTHR45758:SF7)		Mus musculus
+MOUSE|MGI=MGI=1099439|UniProtKB=O55098	Stk10	Serine/threonine-protein kinase 10;Stk10;ortholog	SERINE/THREONINE-PROTEIN KINASE 10 (PTHR24361:SF195)		Mus musculus
+MOUSE|MGI=MGI=1914473|UniProtKB=Q9CYX7	Rrp15	RRP15-like protein;Rrp15;ortholog	RRP15-LIKE PROTEIN (PTHR13245:SF14)		Mus musculus
+MOUSE|MGI=MGI=1916202|UniProtKB=Q7TNV1	Fam57b	Protein FAM57B;Fam57b;ortholog	PROTEIN FAM57B (PTHR13439:SF15)		Mus musculus
+MOUSE|MGI=MGI=1261819|UniProtKB=O88509	Dnmt3b	DNA (cytosine-5)-methyltransferase 3B;Dnmt3b;ortholog	DNA  CYTOSINE-5 -METHYLTRANSFERASE 3B (PTHR23068:SF9)		Mus musculus
+MOUSE|MGI=MGI=2686927|UniProtKB=Q3TMW1	Ccdc102a	Coiled-coil domain-containing protein 102A;Ccdc102a;ortholog	COILED-COIL DOMAIN-CONTAINING PROTEIN 102A (PTHR46292:SF3)		Mus musculus
+MOUSE|MGI=MGI=1096363|UniProtKB=O08742	Gp5	Platelet glycoprotein V;Gp5;ortholog	PLATELET GLYCOPROTEIN V (PTHR45617:SF22)		Mus musculus
+MOUSE|MGI=MGI=1861600|UniProtKB=P46686	Tulp2	Tubby-related protein 2;Tulp2;ortholog	TUBBY-RELATED PROTEIN 2 (PTHR16517:SF24)		Mus musculus
+MOUSE|MGI=MGI=1922010|UniProtKB=Q8VDV3	Rab3il1	Guanine nucleotide exchange factor for Rab-3A;Rab3il1;ortholog	GUANINE NUCLEOTIDE EXCHANGE FACTOR FOR RAB-3A (PTHR14430:SF0)	guanyl-nucleotide exchange factor(PC00113)	Mus musculus
+MOUSE|MGI=MGI=1914162|UniProtKB=Q91VK1	Bzw2	Basic leucine zipper and W2 domain-containing protein 2;Bzw2;ortholog	BASIC LEUCINE ZIPPER AND W2 DOMAIN-CONTAINING PROTEIN 2 (PTHR14208:SF2)	nuclease(PC00170);translation initiation factor(PC00224)	Mus musculus
+MOUSE|MGI=MGI=1321151|UniProtKB=B1AUH1	Ptpru	Receptor-type tyrosine-protein phosphatase U;Ptpru;ortholog	RECEPTOR-TYPE TYROSINE-PROTEIN PHOSPHATASE U (PTHR19134:SF207)	protein phosphatase(PC00195);receptor(PC00197)	Mus musculus
+MOUSE|MGI=MGI=2444589|UniProtKB=Q80ZD3	Slc26a11	Sodium-independent sulfate anion transporter;Slc26a11;ortholog	SODIUM-INDEPENDENT SULFATE ANION TRANSPORTER (PTHR11814:SF55)		Mus musculus
+MOUSE|MGI=MGI=1913951|UniProtKB=Q91WK1	Spry4	SPRY domain-containing protein 4;Spryd4;ortholog	SPRY DOMAIN-CONTAINING PROTEIN 4 (PTHR24099:SF10)		Mus musculus
